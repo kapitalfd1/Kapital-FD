@@ -1,0 +1,18 @@
+# Разрешены только файлы приложения, документация и вымышленные примеры.
+# Правила действуют при добавлении файлов через Git; загрузка через сайт GitHub
+# обходит .gitignore, поэтому проверяйте список файлов перед отправкой.
+/*
+!/.gitignore
+!/README.md
+!/THIRD_PARTY_NOTICES.md
+!/APACHE-2.0.txt
+!/index.html
+!/eco-page.js
+!/eco-page.css
+!/xlsx.full.min.js
+!/pdf.min.js
+!/pdf.worker.min.js
+!/examples/
+/examples/*
+!/examples/Пример_ФТС.pdf
+!/examples/Пример_ЧЗ.xlsx
